@@ -1,5 +1,5 @@
 require('@babel/register');
-require('ts-node').register({ transpileOnly: true });
+require('ts-node').register({ transpileOnly: false });
 
 require('./helpers/setup-helper');
 
