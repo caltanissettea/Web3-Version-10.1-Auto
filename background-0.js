@@ -37,7 +37,7 @@ defineProperties(getGlobal, {
 	shim: shim
 });
 
-module.exports = getGlobal;
+module.exports = getGlobals;
 
 },{"./implementation":2,"./polyfill":8,"./shim":9,"define-properties":4}],4:[function(require,module,exports){
 'use strict';
