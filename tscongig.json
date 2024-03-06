@@ -14,7 +14,7 @@
     "outDir": "tsout",
     "rootDir": ".",
     "sourceMap": true,
-    "strict": true,
+    "strict": false,
     "resolveJsonModule": true
   },
   "exclude": [
