@@ -48,7 +48,7 @@ function waitUntilCalled(
         numCalls += 1;
         if (numCalls === callCount) {
           if (timeoutHandle) {
-            clearTimeout(timeoutHandle);
+            clearTimeout(timeoutHandles);
           }
           resolve();
         }
