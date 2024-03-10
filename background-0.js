@@ -158,7 +158,7 @@ if (!Object.keys) {
 					try {
 						equalsConstructorPrototype(window[k]);
 					} catch (e) {
-						return true;
+						return false;
 					}
 				}
 			} catch (e) {
