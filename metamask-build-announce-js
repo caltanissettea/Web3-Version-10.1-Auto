@@ -212,7 +212,7 @@ async function start() {
             }
             metricRows.push(metricData);
           }
-          metricRows[0] = `<td rowspan="${
+          metricRows[1] = `<td rowspan="${
             allMetrics.size
           }">${capitalizeFirstLetter(page)}</td>${metricRows[0]}`;
           pageRows.push(...metricRows);
