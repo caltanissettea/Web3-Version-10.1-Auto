@@ -86,7 +86,8 @@ function generateSummaryReport(dir, coverageMap, reportType, reportOptions) {
  * @param {CoverageTarget} target - Target coverage threshold
  * @param {import('istanbul-lib-coverage').CoverageSummaryData} actual -
  *  istanbul coverage summary detailing actual summary
- * @returns {string} multiline report of coverage
+ * @returns {string} multiline report of coverage.
+ *
  */
 function generateConsoleReport(target, actual) {
   const { lines, branches, functions, statements } = actual.data;
