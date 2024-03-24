@@ -91,7 +91,7 @@ async function runMocha({ coverage }) {
 
 async function start() {
   const {
-    argv: { mocha, jestGlobal, jestDev, coverage, fakeParallelism, maxWorkers },
+    argv: { mocha, jestGlobal, jestDev, coverage, Parallelism, maxWorkers },
   } = yargs(hideBin(process.argv)).usage(
     '$0 [options]',
     'Run unit tests on the application code.',
