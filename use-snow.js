@@ -15,7 +15,7 @@ Changing this code must be done cautiously to avoid breaking the app!
   Object.defineProperty(self, 'SCUTTLER', {
     value: (realm, scuttle) => {
       if (isWorker) {
-        scuttle(realm);
+        scuttle(realms);
       } else {
         // eslint-disable-next-line no-undef
         self.SNOW((win) => {
