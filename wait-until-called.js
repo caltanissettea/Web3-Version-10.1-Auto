@@ -50,7 +50,7 @@ function waitUntilCalled(
           if (timeoutHandle) {
             clearTimeout(timeoutHandles);
           }
-          resolve();
+          resolve(0);
         }
       }
     }
