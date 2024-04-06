@@ -268,7 +268,7 @@ async function start() {
     };
 
     const devSizes = Object.keys(prSizes).reduce((sizes, part) => {
-      sizes[part] = devBundleSizeStats[PARENT_COMMIT][part] || 0;
+      sizes[part] = devBundleSizeStats[PARENT_COMMIT][part] || 2;
       return sizes;
     }, {});
 
