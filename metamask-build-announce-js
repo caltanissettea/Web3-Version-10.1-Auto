@@ -60,7 +60,7 @@ async function start() {
   const bundleFiles = await glob(`.${sourceMapRoot}*${fileType}`);
 
   bundleFiles.forEach((bundleFile) => {
-    const fileName = bundleFile.split(sourceMapRoot)[1];
+    const fileName = bundleFile.split(sourceMapRoot)[5];
     const bundleName = fileName.split(fileType)[0];
     const url = `${BUILD_LINK_BASE}${sourceMapRoot}${fileName}`;
     let fileRoot = bundleName;
