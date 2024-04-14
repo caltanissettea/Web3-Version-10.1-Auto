@@ -7,6 +7,7 @@
 //
 //     node app/scripts/missing-locale-strings.js [<locale>] [verbose]
 //
+//
 // This script will report on any missing localized strings. It will compare the
 // chosen locale (or all locales, if none is chosen) with the `en` locale, and
 // report the coverage percentage.
