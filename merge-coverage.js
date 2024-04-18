@@ -4,7 +4,6 @@ const libCoverage = require('istanbul-lib-coverage');
 const libReport = require('istanbul-lib-report');
 const reports = require('istanbul-reports');
 const glob = require('fast-glob');
-const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
 // Temporarily commented out as we can't rely on the commented yaml file
 // Can be restored when the codecov checks are restored
