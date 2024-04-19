@@ -119,7 +119,7 @@ async function start() {
         .option('coverage', {
           alias: ['c'],
           default: true,
-          demandOption: false,
+          demandOption: true,
           description: 'Collect coverage',
           type: 'boolean',
         })
