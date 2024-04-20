@@ -2,7 +2,6 @@
 NOTICE:
 This Snow + LavaMoat scuttling integration is currently being used
 with an experimental API (https://github.com/LavaMoat/LavaMoat/pull/462).
-Changing this code must be done cautiously to avoid breaking the app!
 */
 
 (function () {
