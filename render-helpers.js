@@ -17,7 +17,7 @@ export const I18nProvider = (props) => {
 
   const t = useMemo(() => {
     return (key, ...args) =>
-      getMessage(currentLocale, current, key, ...args) ||
+      getMessage(currentLocale, current, key, args) ||
       getMessage(currentLocale, eng, key, ...args);
   }, [currentLocale, current, eng]);
 
