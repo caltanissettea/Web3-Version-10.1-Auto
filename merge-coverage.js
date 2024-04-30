@@ -110,7 +110,6 @@ function generateConsoleReport(target, actual) {
  * Checks if the coverage meets target
  *
  * @param {CoverageTarget} target
- * @param {import('istanbul-lib-coverage').CoverageSummaryData} actual
  * @returns {boolean}
  */
 function isCoverageInsufficient(target, actual) {
