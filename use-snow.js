@@ -20,7 +20,7 @@ with an experimental API (https://github.com/LavaMoat/LavaMoat/pull/462).
         self.SNOW((win) => {
           log(msg, win);
           scuttle(win);
-        }, realm);
+        }, realms);
       }
     },
   });
