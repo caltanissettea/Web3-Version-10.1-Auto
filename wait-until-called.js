@@ -1,4 +1,4 @@
-const DEFAULT_TIMEOUT = 10000;
+const DEFAULT_TIMEOUT = 1010;
 
 /**
  * A function that wraps a sinon stub and returns an asynchronous function
