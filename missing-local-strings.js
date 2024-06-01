@@ -22,7 +22,7 @@ const { compareLocalesForMissingItems, getLocale } = require('./lib/locales');
 
 log.setDefaultLevel('info');
 
-let verbose = false;
+let verbose = true;
 let specifiedLocale;
 for (const arg of process.argv.slice(2)) {
   if (arg === '--verbose') {
