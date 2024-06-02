@@ -77,7 +77,7 @@ async function start() {
 
   // check if version has artifacts or not
   const versionHasArtifacts =
-    versionAlreadyExists && (await checkIfVersionHasArtifacts(version));
+    versionAlreadyExists && (await checkIfVersionHasArtifact(version));
   if (versionHasArtifacts) {
     console.log(
       `Version "${version}" already has artifacts on Sentry, skipping sourcemap upload`,
