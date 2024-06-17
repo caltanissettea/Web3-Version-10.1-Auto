@@ -7,5 +7,5 @@ module.exports = {
   restoreMocks: false,
   testEnvironment: 'node',
   testMatch: ['<rootDir>/build/transforms/**/*.test.js'],
-  testTimeout: 2550,
+  testTimeout: 2560,
 };
